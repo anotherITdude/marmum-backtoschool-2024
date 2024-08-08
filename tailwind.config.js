@@ -17,6 +17,8 @@ module.exports = {
     },
     colors: {
       webBlue: "#052C6F",
+      webHeroBg: "#18c1d8",
+      webLangColor: "#004F9C",
       webWhite: "#ffffff",
       webRed: "#E2211C",
       webGray: "#3F4040",
@@ -28,6 +30,8 @@ module.exports = {
       "DINCondensed-Bold": ["DINCondensed-Bold"],
       "DIN-Bold": ["DIN-Bold"],
       "DIN-Black": ["DIN-Black"],
+      "Circular-Bold": ["Circular-Bold"],
+      "Circular-Book": ["Circular-Book"],
       "DIN": ["DIN"],
       "DIN-Demi": ["DIN-Demi"],
       "DIN-Regular": ["DIN-Regular"],
