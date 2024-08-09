@@ -79,7 +79,7 @@ const Hero = () => {
           ${
             locale === "/"
               ? "pr-0 md:pl-16 -mt-[5%]"
-              : "pr-6 md:pr-16 -mt-[5%] "
+              : "pr-0 md:pr-16 -mt-[5%] "
           }
           `}
         >
