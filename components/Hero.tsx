@@ -69,7 +69,7 @@ const Hero = () => {
 
       <div
         className="flex z-40 justify-center   md:flex-row md:justify-between items-center
-        pl-4 pr-4 -mb-20 md:mb-4 mt-4 h-[700px] md:h-[450px] overflow-visible
+        pl-4 pr-4 -mb-20 md:mb-4 mt-4 h-[750px] md:h-[450px] overflow-visible
         "
       >
         <div
@@ -123,13 +123,13 @@ const Hero = () => {
               className={`flex flex-col -gap-y-1
                md:absolute md:mt-20
              md:bottom-0 md:right-[25%]
-             mb-[33%] md:mb-0
+             mb-[37%] md:mb-0
              bg-webBlue text-webWhite 
             
             ${
               locale === "/"
-                ? "max-w-[250px] pt-1 pb-0 pr-10 pl-10 text-lg md:bottom-0 md:right-[25%]"
-                : "max-w-[250px] pt-2 pb-2 pr-4  pl-4 text-xs md:bottom-0 md:right-[50%]"
+                ? "max-w-[250px] pt-1 pb-0 pr-4 pl-4 md:pr-10 md:pl-10 text-lg md:bottom-0 md:right-[25%]"
+                : "max-w-[250px] pt-2 pb-2 pr-4 pl-4 md:pr-4  md:pl-4 text-xs md:bottom-0 md:right-[50%]"
             }
             `}
             >
@@ -145,8 +145,8 @@ const Hero = () => {
         className={`text-center  text-webWhite
         ${
           locale === "/"
-            ? "font-BebasNeue text-lg tracking-widest mb-1"
-            : "font-NotoKufiArabic-ExtraBold text-sm mb-3"
+            ? "font-BebasNeue text-sm md:text-lg tracking-widest mb-1"
+            : "font-NotoKufiArabic-ExtraBold text-xs md:text-sm mb-3"
         }`}
       >
         {t.scrollText}
