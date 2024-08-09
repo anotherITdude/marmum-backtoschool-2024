@@ -100,7 +100,7 @@ const RegistrationForm = () => {
     <div
       id="register"
       className="w-[90%] md:w-[70%]
-  
+    
     md:mt-[8%]  md:mb-[8%]   justify-center items-center  "
     >
       <div className="">
