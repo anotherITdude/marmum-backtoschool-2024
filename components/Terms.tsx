@@ -20,10 +20,10 @@ const Terms = () => {
           style={{ margin: "auto", marginTop: "3%" }}
         >
           <h1
-            className={`  mb-0 ${
+            className={`  mb-4 md:mb-0 ${
               locale === "/"
                 ? "font-Circular-Bold text-2xl md:text-2xl"
-                : "text-4xl font-NotoKufiArabic-ExtraBold  md:text-2xl"
+                : "text-3xl font-NotoKufiArabic-ExtraBold   md:text-2xl"
             }`}
           >
             {t.terms_heading}
