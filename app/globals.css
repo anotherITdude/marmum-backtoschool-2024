@@ -60,6 +60,33 @@
   font-family: "Circular-Book";
   src: url("../Fonts/CircularStd-Book.otf");
 }
+@font-face {
+  font-family: "BebasNeue";
+  src: url("../Fonts/BebasNeue-Regular.ttf");
+}
+
+@font-face {
+  font-family: "BarlowCondensed-Regular";
+  src: url("../Fonts/BarlowCondensed-Regular.ttf");
+}
+
+@font-face {
+  font-family: "NotoKufiArabic-ExtraBold";
+  src: url("../Fonts/NotoKufiArabic-ExtraBold.ttf");
+}
+
+@font-face {
+  font-family: "NotoKufiArabic-ExtraLight";
+  src: url("../Fonts/NotoKufiArabic-ExtraLight.ttf");
+}
+
+@font-face {
+  font-family: "NotoKufiArabic-Regular";
+  src: url("../Fonts/NotoKufiArabic-Regular.ttf");
+}
+
+
+
 
 /* @layer base {
   * {
