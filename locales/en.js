@@ -63,12 +63,12 @@ const translations = {
   'upload_error_message': 'Something went wrong please try again',
   //Terms and conditions
   'terms_heading': '*TERMS & CONDITIONS',
-'terms1': 'The competition is open only to UAE residents above 18 years of age with a valid Emirates ID.',
-'terms2': 'To enter the promotion, participants have to purchase Al Ain Farms Fresh Milk, Yoghurt, Laban, Juice, Chicken or Eggs that have promotional QR code on them.',
-'terms3': 'On the landing page, participants have to enter their name, email, mobile number, Emirate, Emirates ID number and upload a clear photo of the purchase receipt which shows the date and the Al Ain Farms product.',
-'terms4': 'Participants have to register only through the online link which is validated through scanning of the QR code on the product.',
-'terms5': 'The last date for submission is 15th September 2024. Winners will be announced on 10th of October 2024 on Al Ain Farms social media and individually contacted for prize collection',
-'terms6': 'Selection of winners will be at the sole discretion of Al Ain Farms management and all decisions will be final and binding.',
-  'copywrite': '© Copyright 2024 Al Ain Farms, Back to School, All Rights Reserved',
+    "terms1": "The competition is open only to UAE residents above 18 years of age with a valid Emirates ID.",
+    "terms2": "To enter the promotion, participants have to purchase Marmum Fresh Milk, Yoghurt, or Juice that have promotional QR code on them.",
+    "terms3": "On the landing page, participants have to enter their name, email, mobile number, Emirate, Emirates ID number and upload a clear photo of the purchase receipt which shows the date and the Marmum product.",
+    "terms4": "Participants have to register only through the online link which is validated through scanning of the QR code on the product.",
+    "terms5": "The last date for submission is 15th September 2024. Winners will be announced on 28th August, 4th September, 11th September, and 18th September 2024 on the Marmum Social Media pages and individually contacted for prize collection.",
+    "terms6": "Selection of winners will be at the sole discretion of Marmum management and all decisions will be final and binding.",
+    'copywrite': 'Copyright © 2024 IMG Worlds of Adventure, All Rights Reserved',
 };
 export default translations;

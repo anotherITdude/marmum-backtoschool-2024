@@ -19,6 +19,7 @@ module.exports = {
       webBlue: "#224698",
       webHeroBg: "#18c1d8",
       webAdventureBg: "#1ccee8",
+      webTermsBg: "#1FBED4",
       webLangColor: "#004F9C",
       webWhite: "#ffffff",
       webRed: "#E2211C",
