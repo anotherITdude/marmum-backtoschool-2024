@@ -79,7 +79,7 @@ const Input: React.FC<InputProps> = ({
           transform
           -translate-y-3
           uppercase 
-          tracking-widest
+          
           
           z-10 
           origin-[0] 
