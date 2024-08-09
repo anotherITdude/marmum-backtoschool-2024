@@ -2,6 +2,9 @@ const translations = {
   //Hero section
   'promition': 'PROMOTION VALID FROM 29th NOV TO 9th DEC 2023',
   'terms_and_conditions': '*Terms & Conditions Apply',
+  'scrollText': 'Scroll down for registration',
+  'winners_line1': '50 Winners of',
+  'winners_line2': '4 TICKETS EACH',
   //Competition section 
   'arrive_line_1': 'ARRIVE IN STYLE TO',
   'arrive_line_2': 'START YOUR SCHOOL YEAR',

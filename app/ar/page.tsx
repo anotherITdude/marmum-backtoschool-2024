@@ -9,8 +9,8 @@ export default function Home() {
     <Container>
       <Hero />
       <RegisterSection />
+      <Adventure />
       <Terms />
-      {/* <Adventure /> */}
     </Container>
   );
 }
