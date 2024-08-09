@@ -108,7 +108,7 @@ const Hero = () => {
           ${
             locale === "/"
               ? "font-BebasNeue tracking-wider -ml-0 md:-ml-12"
-              : "font-NotoKufiArabic-Regular text-xs -ml-0 md:ml-20 md:-mr-8"
+              : "font-NotoKufiArabic-ExtraBold text-xs -ml-0 md:ml-20 md:-mr-8"
           }`}
           >
             <Image
@@ -122,14 +122,14 @@ const Hero = () => {
             <div
               className={`flex flex-col -gap-y-1
                md:absolute md:mt-20
-             md:bottom-0 md:right-[30%]
+             md:bottom-0 md:right-[25%]
              mb-[33%] md:mb-0
              bg-webBlue text-webWhite 
             
             ${
               locale === "/"
-                ? "max-w-[150px] pt-1 pr-4 pl-4 text-lg"
-                : "max-w-[200px] pt-1 pr-4 pb-1 pl-4 text-xs"
+                ? "max-w-[250px] pt-1 pb-0 pr-10 pl-10 text-lg md:bottom-0 md:right-[25%]"
+                : "max-w-[250px] pt-2 pb-2 pr-4  pl-4 text-xs md:bottom-0 md:right-[50%]"
             }
             `}
             >
@@ -146,7 +146,7 @@ const Hero = () => {
         ${
           locale === "/"
             ? "font-BebasNeue text-lg tracking-widest mb-1"
-            : "font-NotoKufiArabic-Regular text-xs mb-2"
+            : "font-NotoKufiArabic-ExtraBold text-sm mb-3"
         }`}
       >
         {t.scrollText}
