@@ -69,7 +69,7 @@ const Hero = () => {
 
       <div
         className="flex z-40 justify-center   md:flex-row md:justify-between items-center
-        pl-4 pr-4 -mb-20 md:mb-4 mt-4 h-[700px] md:h-[540px] overflow-visible
+        pl-4 pr-4 -mb-20 md:mb-4 mt-4 h-[700px] md:h-[450px] overflow-visible
         "
       >
         <div
@@ -78,8 +78,8 @@ const Hero = () => {
           
           ${
             locale === "/"
-              ? "pr-0 md:pl-16 -mt-[5%]"
-              : "pr-0 md:pr-16 -mt-[5%] "
+              ? "pr-0 md:pl-10 mt-0 md:-mt-[9%]"
+              : "pr-0 md:pr-10 -mt-[5%] "
           }
           `}
         >
@@ -92,7 +92,7 @@ const Hero = () => {
               placeholder="blur"
               src={locale === "/" ? hero_en_left_top : hero_ar_left_top}
               alt="Marvel"
-              className={`max-w-[80%] md:max-w-[450px] m-auto mt-10`}
+              className={`max-w-[90%] md:max-w-[450px] m-auto mt-10`}
             />
             <Image
               placeholder="blur"
@@ -104,21 +104,23 @@ const Hero = () => {
           <motion.div
             {...motionSettingsright2left}
             className={`right z-0 flex flex-col   md:block 
-          relative justify-center items-center -mt-8 md:mt-0
+          relative justify-center items-center -mt-8 md:mt-0 
           ${
             locale === "/"
               ? "font-BebasNeue tracking-wider -ml-0 md:-ml-12"
-              : "font-NotoKufiArabic-Regular text-xs -ml-0 md:-ml-0"
+              : "font-NotoKufiArabic-Regular text-xs -ml-0 md:ml-20 md:-mr-8"
           }`}
           >
             <Image
               placeholder="blur"
               src={hero_right}
               alt="Marvel"
-              className={`max-w-[100%] md:max-w-[100%] m-auto`}
+              className={`max-w-[100%] md:max-w-[600px] m-auto
+                ${locale === "/" ? "mt-10 md:mt-0" : "mt-10 md:mt-0 "}
+                `}
             />
             <div
-              className={`flex flex-col  -gap-y-1
+              className={`flex flex-col -gap-y-1
                md:absolute md:mt-20
              md:bottom-0 md:right-[30%]
              mb-[33%] md:mb-0
@@ -126,8 +128,8 @@ const Hero = () => {
             
             ${
               locale === "/"
-                ? "max-w-[150px] pt-1 pr-3 pl-3"
-                : "max-w-[200px] pt-1 pr-3 pb-1 pl-3"
+                ? "max-w-[150px] pt-1 pr-4 pl-4 text-lg"
+                : "max-w-[200px] pt-1 pr-4 pb-1 pl-4 text-xs"
             }
             `}
             >
@@ -143,8 +145,8 @@ const Hero = () => {
         className={`text-center  text-webWhite
         ${
           locale === "/"
-            ? "font-BebasNeue text-sm tracking-widest"
-            : "font-NotoKufiArabic-Regular text-xs"
+            ? "font-BebasNeue text-lg tracking-widest mb-1"
+            : "font-NotoKufiArabic-Regular text-xs mb-2"
         }`}
       >
         {t.scrollText}

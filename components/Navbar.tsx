@@ -17,7 +17,7 @@ const Navbar = () => {
   return (
     <motion.nav
       className={`flex justify-between gap-x-4  -mb-00 z-50 relative
-  ${locale === "/" ? " pl-6 md:pl-16" : "pr-6 md:pr-16"}
+  ${locale === "/" ? " pl-6 md:pl-10" : "pr-6 md:pr-10"}
   `}
     >
       <motion.div
@@ -50,7 +50,7 @@ const Navbar = () => {
         </div>
       </motion.div>
       
-      <motion.div className={`pt-4 ${locale === "/" ? "pr-4 md:pr-14" : "pl-4 md:pl-14"} `}>
+      <motion.div className={`pt-4 ${locale === "/" ? "pr-4 md:pr-10" : "pl-4 md:pl-10"} `}>
         <Link href="/">
           <Image
             quality={100}
