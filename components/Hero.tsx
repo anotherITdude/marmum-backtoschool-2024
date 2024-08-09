@@ -69,7 +69,7 @@ const Hero = () => {
 
       <div
         className="flex z-40 justify-center   md:flex-row md:justify-between items-center
-        pl-4 pr-4 -mb-20 md:mb-4 mt-4 h-[750px] md:h-[450px] overflow-visible
+        pl-4 pr-4 -mb-20 md:mb-4 mt-4 h-auto md:h-[450px] overflow-visible
         "
       >
         <div
