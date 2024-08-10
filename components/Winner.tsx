@@ -31,7 +31,7 @@ const Winner = () => {
   return (
     <div dir={`ltr`} className={`bg-[#1FBED4] flex flex-col overflow-hidden`}>
       <div
-        className={`flex text-webWhite  pr-4 md:mb-4 mt-4 h-full md:h-[540px] overflow-visible
+        className={`flex text-webWhite  pr-4 md:mb-4 mt-1 h-full md:h-[540px] overflow-visible
           pt-10 md:pt-0`}
       >
         <motion.div {...motionSettingsleft2right} className="relative hidden md:flex flex-1 ">

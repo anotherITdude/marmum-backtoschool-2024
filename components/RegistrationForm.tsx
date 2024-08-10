@@ -109,7 +109,7 @@ const RegistrationForm = () => {
             className={` text-webWhite text-center uppercase mb-8
           ${
             locale === "/"
-              ? "font-BebasNeue text-[45px] md:text-6xl pl-0"
+              ? "font-BebasNeue text-[47px] md:text-6xl pl-0"
               : "font-NotoKufiArabic-ExtraBold text-4xl md:text-5xl pr-0"
           }
           `}
@@ -118,7 +118,7 @@ const RegistrationForm = () => {
           </h2>
           <form
             onSubmit={handleSubmit(onSubmit)}
-            className="pl-4 pr-4 pt-2 mt-1"
+            className="pl-4 pr-4 pt-0 mt-1"
           >
             <div className="flex flex-col gap-x-6 gap-y-6 md:gap-y-0 mb-6 md:flex-row justify-evenly">
               <div className="form-field w-full ">

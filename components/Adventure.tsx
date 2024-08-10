@@ -61,7 +61,7 @@ const Adventure = () => {
     >
       <div
         className="flex justify-center   md:flex-row md:justify-between items-center
-        pl-4 pr-4 mb-4 mt-4 h-full md:h-[540px] overflow-visible pt-10
+        pl-4 pr-4 mb-4 mt-0 h-full md:h-[540px] overflow-visible pt-10
         "
       >
         <div

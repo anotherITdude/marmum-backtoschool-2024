@@ -16,7 +16,7 @@ const Terms = () => {
     >
       <Section>
         <div
-          className="w-full md:w-[90%] pl-4 pr-4 md:pt-4 md:pl-6 "
+          className="w-full md:w-[90%] pl-4 pr-4 pt-0 md:pt-4 md:pl-6 "
           style={{ margin: "auto", marginTop: "3%" }}
         >
           <h1

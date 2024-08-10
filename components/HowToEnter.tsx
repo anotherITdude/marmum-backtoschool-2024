@@ -16,7 +16,7 @@ const HowToEnter = () => {
   const locale = usePathname();
   const t = locale === "/" ? en : ar;
   return (
-    <div className='bg-[#1FBED4] h-auto md:h-[500px] pr-4 pl-4 md:pr-20 md:pl-20 pt-8 md:pt-20 relative'>
+    <div className='bg-[#1FBED4] h-auto md:h-[500px] pr-4 pl-4 md:pr-20 md:pl-20 pt-10 pb-10 md:pt-20 relative'>
       <div className=" w-full z-40 flex flex-col justify-center">
           <motion.h2
             
@@ -101,8 +101,8 @@ const HowToEnter = () => {
       
       <motion.div {...motionSettingstop2bottom} className={`
         ${locale === "/"
-        ? "z-10 md:absolute right-3 md:right-10 md:max-w-[70%] -bottom-10 mt-14 pb-4 mr-3"
-        : "z-10 md:absolute left-3 md:left-10  w-full md:max-w-[70%] -bottom-14 mt-14 pb-4 md:-bottom-20 -mr-3"}
+        ? "z-10 md:absolute right-3 md:right-10 md:max-w-[70%] -bottom-10 mt-14  mr-3"
+        : "z-10 md:absolute left-3 md:left-10  w-full md:max-w-[70%] -bottom-14 mt-14  md:-bottom-20 -mr-3"}
         `}>
         <Image
           src={locale === "/" ? howtoenter : howtoenter_ar}
