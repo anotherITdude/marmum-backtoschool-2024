@@ -16,6 +16,12 @@ const translations = {
   'winners_announcement_from': '28th August, 4th September,',
   'winners_announcement_to': '11th September, 18th September 2024',
   //Competition section
+  //winner section
+  'winner_title': '200',
+  'winner_title_p1': 'IMG Worlds',
+  'winner_title_p2': 'of Adventure',
+  'winner_title_p3': 'Tickets',
+  //winner section
   //Happy UAE day section
   'happy': 'HAPPY',
   'uae': 'UAE',
