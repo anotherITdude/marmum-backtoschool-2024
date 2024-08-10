@@ -101,14 +101,14 @@ const Hero = () => {
               src={hero_right}
               alt="Marvel"
               className={`max-w-[100%] block md:hidden md:max-w-[600px] m-auto
-                ${locale === "/" ? "-mt-3 md:mt-0" : "mt-1 md:mt-0 "}
+                ${locale === "/" ? "-mt-3 md:mt-0" : "-mt-1 md:mt-0 "}
                 `}
             />
             <Image
               placeholder="blur"
               src={locale === "/" ? hero_en_left_bot : hero_ar_left_bot}
               alt="Marvel"
-              className={`max-w-[80%] md:max-w-[430px] mt-4 mb-10 m-auto`}
+              className={`max-w-[80%] md:max-w-[430px] mt-3 mb-10 m-auto`}
             />
           </motion.div>
           <motion.div
@@ -156,7 +156,7 @@ const Hero = () => {
         ${
           locale === "/"
             ? "font-BebasNeue text-lg md:text-lg tracking-widest mb-1"
-            : "font-NotoKufiArabic-Regular text-sm md:text-lg -mt-6 mb-3"
+            : "font-NotoKufiArabic-Regular text-sm md:text-lg -mt-4 md:mt-6 mb-3"
         }`}
       >
         {t.scrollText}
