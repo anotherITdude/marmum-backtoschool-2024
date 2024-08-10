@@ -11,12 +11,12 @@ const Terms = () => {
   return (
     <div
       id="terms"
-      className="text-webWhite bg-webTermsBg"
+      className="text-webWhite bg-webAdventureBg"
      
     >
       <Section>
         <div
-          className="w-full md:w-[90%] pl-4 pr-4 md:pl-20 "
+          className="w-full md:w-[90%] pl-4 pr-4 pt-12 md:pt-8 md:pl-6 "
           style={{ margin: "auto", marginTop: "3%" }}
         >
           <h1
