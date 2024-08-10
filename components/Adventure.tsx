@@ -121,7 +121,7 @@ const Adventure = () => {
             ${
               locale === "/"
                 ? "font-BarlowCondensed-Regular uppercase tracking-tight font-thin  text-lg"
-                : "font-NotoKufiArabic-ExtraLight text-lg md:w-[75%]"
+                : "font-NotoKufiArabic-ExtraLight text-lg md:max-w-[70%]"
             }
             `}>
               {t.adventure_p}
