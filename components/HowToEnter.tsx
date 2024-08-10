@@ -16,7 +16,7 @@ const HowToEnter = () => {
   const locale = usePathname();
   const t = locale === "/" ? en : ar;
   return (
-    <div className='bg-[#1FBED4] h-[80vh] md:h-[500px] pr-4 pl-4 md:pr-20 md:pl-20 pt-8 md:pt-20 relative'>
+    <div className='bg-[#1FBED4] h-[75vh] md:h-[500px] pr-4 pl-4 md:pr-20 md:pl-20 pt-8 md:pt-20 relative'>
       <div className=" w-full z-40 flex flex-col justify-center">
           <motion.h2
             
