@@ -3,9 +3,9 @@ const translations = {
   'promition': 'العرض ساري خلال الفترة من 29 نوفمبر وحتى 9 ديسمبر 2023',
   'terms_and_conditions': '*تطبق الشروط والأحكام',
   'happy': 'خالص التهانئ والتبريكات',
-  'scrollText': 'قم بالتمرير لأسفل للتسجيل',
+  'scrollText': 'أنتقل لأسفل الصفحة للتسجيل',
   'winners_line1': '50 رابح',
-  'winners_line2': 'لعدد 4 تذاكر دخول لëل مìíم',
+  'winners_line2': 'لعدد 4 تذاكر دخول لكل منهم',
   'uae': 'لدولة الإمارات العربية المتحدة',
   'national_day': 'بمناسبة اليوم الوطني',
   'register_now': 'سجل الآن',
@@ -13,7 +13,7 @@ const translations = {
   'paragraph2': "تسوق، استمتع، واستفد من اللحظة في كارفور!",
   'exclusive': 'حصريا لدى',
   // قسم المسابقة
-  
+ 
   //winner section
   'winner_title': '200',
   'winner_title_p1': 'آي إم جي',
