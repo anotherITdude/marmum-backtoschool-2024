@@ -156,7 +156,7 @@ const Hero = () => {
         ${
           locale === "/"
             ? "font-BebasNeue text-lg md:text-lg tracking-widest mb-1"
-            : "font-NotoKufiArabic-Regular text-sm md:text-lg -mt-4 md:mt-6 mb-3"
+            : "font-NotoKufiArabic-Regular text-sm md:text-lg -mt-9 md:mt-6 mb-3"
         }`}
       >
         {t.scrollText}
