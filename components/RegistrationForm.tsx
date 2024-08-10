@@ -109,7 +109,7 @@ const RegistrationForm = () => {
             className={` text-webWhite text-center uppercase mb-8
           ${
             locale === "/"
-              ? "font-BebasNeue text-4xl md:text-6xl pl-0"
+              ? "font-BebasNeue text-[45px] md:text-6xl pl-0"
               : "font-NotoKufiArabic-ExtraBold text-4xl md:text-5xl pr-0"
           }
           `}

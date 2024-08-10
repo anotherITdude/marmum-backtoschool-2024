@@ -17,6 +17,7 @@ module.exports = {
     },
     colors: {
       webBlue: "#224698",
+      webDarkBlue: "#011E61",
       webHeroBg: "#18c1d8",
       webAdventureBg: "#1ccee8",
       webTermsBg: "#1FBED4",
