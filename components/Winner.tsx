@@ -50,7 +50,7 @@ const Winner = () => {
             ${
               locale === "/"
               ? "font-BebasNeue text-8xl md:text-8xl text-center md:text-left "
-              : "font-NotoKufiArabic-ExtraBold text-6xl md:text-6xl text-center md:text-right"
+              : "font-BebasNeue text-8xl md:text-8xl text-center md:text-right"
             }`}
           >
             {t.winner_title}
@@ -59,7 +59,7 @@ const Winner = () => {
             className={`mb-5
             ${locale === "/"
               ? "font-BebasNeue text-4xl md:text-4xl text-center md:text-left"
-              : "font-NotoKufiArabic-Regular text-2xl  md:text-2xl text-center md:text-right "}
+              : "font-NotoKufiArabic-ExtraBold text-2xl  md:text-2xl text-center md:text-right "}
               `}
           >
             <p className={`${locale === "/" ? "" : " mb-1"}`}>{t.winner_title_p1}</p>
@@ -79,7 +79,7 @@ const Winner = () => {
             ${
               locale === "/"
                 ? "font-BebasNeue m-auto mb-6 max-w-[130px] pt-[6px] pb-0 pr-4 pl-4 md:pr-4 md:ml-0 md:pl-4 text-xl "
-                : "font-NotoKufiArabic-Regular mb-6 md:mb-0 m-auto max-w-[210px] pt-1 pb-2 pr-2 pl-4 md:pr-0 md:mr-0  md:pl-4 text-sm "
+                : "font-NotoKufiArabic-ExtraBold mb-6 md:mb-0 m-auto max-w-[230px] pt-1 pb-2 pr-2 pl-4 md:pr-0 md:mr-0  md:pl-0 text-xs md:text-sm "
             }
             `}
             >

@@ -33,7 +33,7 @@ const Navbar = () => {
             <React.Fragment key={lang}>
               <Link
                 href={lang === "en" ? "/" : `/${lang}`}
-                className={`${
+                className={` text-lg ${
                   locale === `/${lang}` || (locale === "/" && lang === "en")
                     ? "text-webWhite cursor-not-allowed underline underline-offset-4 font-Circular-Bold "
                     : "text-webLangColor cursor-pointer font-Circular-Bold  "

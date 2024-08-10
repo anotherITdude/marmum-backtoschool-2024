@@ -92,18 +92,28 @@ const Hero = () => {
               placeholder="blur"
               src={locale === "/" ? hero_en_left_top : hero_ar_left_top}
               alt="Marvel"
-              className={`max-w-[90%] md:max-w-[450px] m-auto mt-10`}
+              className={`max-w-[90%] md:max-w-[450px] m-auto 
+                ${locale === "/" ? "mt-2" : "mt-4"}
+                `}
+            />
+            <Image
+              placeholder="blur"
+              src={hero_right}
+              alt="Marvel"
+              className={`max-w-[100%] block md:hidden md:max-w-[600px] m-auto
+                ${locale === "/" ? "-mt-3 md:mt-0" : "mt-1 md:mt-0 "}
+                `}
             />
             <Image
               placeholder="blur"
               src={locale === "/" ? hero_en_left_bot : hero_ar_left_bot}
               alt="Marvel"
-              className={`max-w-[80%] md:max-w-[430px] mt-4 m-auto`}
+              className={`max-w-[80%] md:max-w-[430px] mt-4 mb-10 m-auto`}
             />
           </motion.div>
           <motion.div
             {...motionSettingsright2left}
-            className={`right z-0 flex flex-col   md:block 
+            className={`right z-0 flex flex-col md:block 
           relative justify-center items-center -mt-8 md:mt-0 
           ${
             locale === "/"
@@ -115,7 +125,7 @@ const Hero = () => {
               placeholder="blur"
               src={hero_right}
               alt="Marvel"
-              className={`max-w-[100%] md:max-w-[600px] m-auto
+              className={`max-w-[100%] hidden md:block md:max-w-[600px] m-auto
                 ${locale === "/" ? "mt-10 md:mt-0" : "mt-10 md:mt-0 "}
                 `}
             />
@@ -123,7 +133,7 @@ const Hero = () => {
               className={`flex flex-col -gap-y-1
                md:absolute md:mt-20
              md:bottom-0 md:right-[25%]
-             mb-[37%] md:mb-0
+             mb-[67%] md:mb-0
              bg-webBlue text-webWhite 
             
             ${
@@ -142,11 +152,11 @@ const Hero = () => {
         </div>
       </div>
       <div
-        className={`text-center  text-webWhite
+        className={`text-center  text-webWhite animate-pulse mt-4 md:mt-0
         ${
           locale === "/"
-            ? "font-BebasNeue text-sm md:text-lg tracking-widest mb-1"
-            : "font-NotoKufiArabic-ExtraBold text-xs md:text-sm mb-3"
+            ? "font-BebasNeue text-lg md:text-lg tracking-widest mb-1"
+            : "font-NotoKufiArabic-Regular text-sm md:text-lg -mt-6 mb-3"
         }`}
       >
         {t.scrollText}

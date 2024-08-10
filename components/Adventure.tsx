@@ -135,7 +135,7 @@ const Adventure = () => {
                     <Image
                       src={star}
                       alt="star"
-                      className="w-[16px] md:w-[16px] mt-1"
+                      className="w-[16px] md:w-[16px] mt-1 animate-pulse"
                     />
                   </motion.div>
                   <div
@@ -147,7 +147,7 @@ const Adventure = () => {
                     }
                     `}
                   >
-                    <p className={`${locale === "/" ? "uppercase text-lg " : " text-sm  "}`}>{t.period_title}</p>
+                    <p className={`${locale === "/" ? "uppercase text-lg " : " text-sm font-NotoKufiArabic-ExtraBold  "}`}>{t.period_title}</p>
                     <p className=
                       {`${locale === "/" ? "uppercase text-sm -mt-1" : "mt-1 text-xs "}`}>{t.period_from}</p>
                     <p className={`${locale === "/" ? "uppercase text-sm -mt-1" : "mt-1 text-xs "}`}>{t.period_to}</p>
@@ -163,7 +163,7 @@ const Adventure = () => {
                     <Image
                       src={star}
                       alt="star"
-                      className="w-[16px] md:w-[16px] mt-1"
+                      className="w-[16px] md:w-[16px] mt-1 animate-pulse  "
                     />
                   </motion.div>
                   <div
@@ -175,7 +175,7 @@ const Adventure = () => {
                     }
                     `}
                   >
-                    <p className={`${locale === "/" ? "uppercase text-lg " : " text-sm  "}`}>{t.winners_announcement}</p>
+                    <p className={`${locale === "/" ? "uppercase text-lg " : " text-sm font-NotoKufiArabic-ExtraBold  "}`}>{t.winners_announcement}</p>
                     <p className={`${locale === "/" ? "uppercase text-sm -mt-1 " : " mt-1 text-xs  "}`}>{t.winners_announcement_from}</p>
                     <p className={`${locale === "/" ? "uppercase text-sm -mt-1 " : " text-xs  "}`}>{t.winners_announcement_to}</p>
                   </div>
