@@ -108,7 +108,11 @@ const Hero = () => {
               placeholder="blur"
               src={locale === "/" ? hero_en_left_bot : hero_ar_left_bot}
               alt="Marvel"
-              className={`max-w-[80%] md:max-w-[430px] mt-3 mb-10 m-auto`}
+              className={`
+                ${locale === "/"
+                ? "max-w-[80%] md:max-w-[430px] mt-3 mb-12 m-auto"
+                : "max-w-[80%] md:max-w-[430px] mt-0 mb-10 m-auto"}
+                `}
             />
           </motion.div>
           <motion.div
@@ -152,11 +156,11 @@ const Hero = () => {
         </div>
       </div>
       <div
-        className={`text-center  text-webWhite animate-pulse mt-4 md:mt-0
+        className={`text-center  text-webWhite animate-pulse md:mt-0
         ${
           locale === "/"
-            ? "font-BebasNeue text-lg md:text-lg tracking-widest mb-1"
-            : "font-NotoKufiArabic-Regular text-sm md:text-lg -mt-9 md:mt-6 mb-3"
+            ? "font-BebasNeue text-lg md:text-lg tracking-widest mt-9 mb-1"
+            : "font-NotoKufiArabic-Regular text-sm md:text-lg -mt-5 md:mt-6 mb-3"
         }`}
       >
         {t.scrollText}
