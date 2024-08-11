@@ -171,8 +171,8 @@ const RegistrationForm = () => {
               rounded-full
                 ${
                   locale === "/"
-                    ? "font-BebasNeue tracking-wider text-xs"
-                    : "font-NotoKufiArabic-Regular text-"
+                    ? "font-BebasNeue tracking-wider  text-xs"
+                    : "font-NotoKufiArabic-Regular font-bold text-sm"
                 }
                 ${errors.emirate ? "text-webBlack" : "text-webBlue "}
                 `}
