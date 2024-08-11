@@ -172,7 +172,7 @@ const RegistrationForm = () => {
                 ${
                   locale === "/"
                     ? "font-BebasNeue tracking-wider text-xs"
-                    : "font-NotoKufiArabic-Regular text-sm"
+                    : "font-NotoKufiArabic-Regular text-"
                 }
                 ${errors.emirate ? "text-webBlack" : "text-webBlue "}
                 `}
