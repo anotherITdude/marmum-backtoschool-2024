@@ -5,7 +5,6 @@ import HowToEnter from "@/components/HowToEnter";
 import RegisterSection from "@/components/RegistrationSection";
 import Terms from "@/components/Terms";
 import Winner from "@/components/Winner";
-import Image from "next/image";
 
 export default function Home() {
   return (

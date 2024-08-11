@@ -11,13 +11,13 @@ import { yupResolver } from "@hookform/resolvers/yup";
 import axios from "axios";
 import { motion } from "framer-motion";
 
-// import {
-//   Select,
-//   SelectContent,
-//   SelectItem,
-//   SelectTrigger,
-//   SelectValue,
-// } from "@/components/ui/select";
+import {
+  Select,
+  SelectContent,
+  SelectItem,
+  SelectTrigger,
+  SelectValue,
+} from "@/components/ui/select";
 
 import en from "../locales/en";
 import ar from "../locales/ar";
@@ -39,6 +39,7 @@ const RegistrationForm = () => {
     handleSubmit,
     formState: { errors },
     reset,
+    setValue,
   } = useForm<FieldValues>({
     resolver: yupResolver(schema(t)) as any, // Use 'as any' to handle type mismatch
 
@@ -57,7 +58,7 @@ const RegistrationForm = () => {
 
   const onSubmit: SubmitHandler<FieldValues> = async (data) => {
     let toastStatus = toast.loading(t.uploading_data);
-    
+
     try {
       setIsLoading(true);
       data.contentType = data.receipt[0].type;
@@ -155,7 +156,7 @@ const RegistrationForm = () => {
                   type="email"
                 />
               </div>
-              <div className="form-field w-full">
+              {/* <div className="form-field w-full">
                 <Input
                   id="emirate"
                   label={t.emirate}
@@ -164,45 +165,82 @@ const RegistrationForm = () => {
                   errors={errors}
                   type="string"
                 />
+              </div> */}
+              <div
+                className={` form-field w-full 
+              rounded-full
+                ${
+                  locale === "/"
+                    ? "font-BebasNeue tracking-wider text-xs"
+                    : "font-NotoKufiArabic-Regular text-sm"
+                }
+                ${errors.emirate ? "text-webBlack" : "text-webBlue "}
+                `}
+              >
+                <Select
+                  dir={`${locale === "/" ? "ltr" : "rtl"}`}
+                  disabled={isLoading}
+                  onValueChange={(value) => setValue("emirate", value)}
+                >
+                  <SelectTrigger className="">
+                    <SelectValue className="" placeholder={t.emirate} />
+                  </SelectTrigger>
+                  <SelectContent className="">
+                    <SelectItem value="abu-dhabi">Abu Dhabi</SelectItem>
+                    <SelectItem value="dubai">Dubai</SelectItem>
+                    <SelectItem value="sharjah">Sharjah</SelectItem>
+                    <SelectItem value="ajman">Ajman</SelectItem>
+                    <SelectItem value="umm-al-quwain">Umm Al Quwain</SelectItem>
+                    <SelectItem value="ras-al-khaimah">
+                      Ras Al Khaimah
+                    </SelectItem>
+                    <SelectItem value="fujairah">Fujairah</SelectItem>
+                  </SelectContent>
+                </Select>
+                {errors.emirate && <p className={` text-webRed
+                  ${locale === "/" ? " ml-6 text-xs mt-1"
+                    : " mr-6 text-xs mt-1"}`}>{t.emirate_error}</p>}
               </div>
             </div>
 
             <div className="flex flex-col gap-x-6 gap-y-6 md:gap-y-0 mb-6 md:flex-row justify-evenly">
-            <div className="form-field w-full">
-              <Input
-                id="eid"
-                label={t.emirate_id_number}
-                disabled={isLoading}
-                register={register}
-                errors={errors}
-                type="text"
-              />
-            </div>
-            <div className="w-full">
-            <div className="form-field w-full">
-              <Input
-                id="receipt"
-                label={t.upload_purchase_receipt}
-                disabled={isLoading}
-                register={register}
-                errors={errors}
-                type="file"
-              />
-              <div
-                className={`mt-2 ml-2 uppercase text-xs cursor-pointer text-webWhite 
+              <div className="form-field w-full">
+                <Input
+                  id="eid"
+                  label={t.emirate_id_number}
+                  disabled={isLoading}
+                  register={register}
+                  errors={errors}
+                  type="text"
+                />
+              </div>
+              <div className="w-full">
+                <div className="form-field w-full">
+                  <Input
+                    id="receipt"
+                    label={t.upload_purchase_receipt}
+                    disabled={isLoading}
+                    register={register}
+                    errors={errors}
+                    type="file"
+                  />
+                  <div
+                    className={`mt-2 ml-2 uppercase text-xs cursor-pointer text-webWhite 
               ${
                 locale === "/"
                   ? "font-Circular-Bold"
                   : "font-NotoKufiArabic-Regular"
               }`}
-              >
-                ( {t.max_upload_size} )
+                  >
+                    ( {t.max_upload_size} )
+                  </div>
+                </div>
               </div>
             </div>
-            </div>
-            </div>
             <div
-              className={` w-full flex justify-center items-center form-field pt-4 ${isLoading ? "animate-pulse" : ""}
+              className={` w-full flex justify-center items-center form-field pt-4 ${
+                isLoading ? "animate-pulse" : ""
+              }
               ${locale === "/" ? "float-left" : "float-right"}`}
             >
               <Button
