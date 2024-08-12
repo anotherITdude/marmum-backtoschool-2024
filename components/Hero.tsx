@@ -93,7 +93,7 @@ const Hero = () => {
               src={locale === "/" ? hero_en_left_top : hero_ar_left_top}
               alt="Marvel"
               className={`max-w-[90%] md:max-w-[450px] m-auto 
-                ${locale === "/" ? "mt-2" : "mt-4"}
+                ${locale === "/" ? "mt-2 md:mt-[20%]" : "mt-4 md:mt-[20%]"}
                 `}
             />
             <Image
