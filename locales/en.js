@@ -44,7 +44,7 @@ const translations = {
   'step_1_content': 'PURCHASE MARMUM FRESH MILK, YOGHURT OR JUICE THAT HAVE THE PROMOTIONAL QR CODE ON THEM.',
   'step_2_content': 'SCAN THE QR CODE USING YOUR SMARTPHONE OR TABLET.',
   'step_3_content': 'REGISTER ON THE MICROSITE AFTER SCANNING THE QR CODE & UPLOAD THE PURCHASE RECEIPT.',
-  'step_4_content': 'SUBMIT YOUR ENTRY TO ENTER THE DRAW.',
+  'step_4_content': 'SUBMIT YOUR ENTRY TO ENTER THE COMPETITION.',
   'disclaimer': 'This promotion is valid on select Al Ain Farms products. Products include: Fresh Milk, Fresh Yoghurt, Fresh Laban, Fresh Juice, Fresh Chicken or Fresh Eggs. Head to select stores to buy today and enter!',
   //Register Section
   'registration': 'Registration',
