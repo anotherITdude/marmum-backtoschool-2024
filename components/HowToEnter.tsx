@@ -81,7 +81,7 @@ const HowToEnter = () => {
                   </div>
                 </motion.div>
 
-                <motion.div className={`flex  ${locale === '/' ?  'gap-x-4' : 'gap-x-2'}`}>
+                <motion.div className={`flex  ${locale === '/' ?  'gap-x-4 w-[350px]' : 'gap-x-2'}`}>
                   <div className="">
                     <div
                       className="w-7 h-7 flex justify-center items-center rounded-full
