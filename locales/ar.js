@@ -16,9 +16,9 @@ const translations = {
  
   //winner section
   'winner_title': '200',
-  'winner_title_p1': 'آي إم جي',
-  'winner_title_p2': 'عالم من المغامرات',
-  'winner_title_p3': 'تذكرة دخول',
+  'winner_title_p1': 'تذكرة دخول',
+  'winner_title_p2': 'آي إم جي',
+  'winner_title_p3': 'عالم من المغامرات',
   //winner section
 
   'adventure_line_1': 'العودة لعالم المرح والمغامرات',

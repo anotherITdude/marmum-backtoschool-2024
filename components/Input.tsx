@@ -35,7 +35,7 @@ const Input: React.FC<InputProps> = ({
         {...(type === "file"
           ? {
               accept: "image/jpeg, image/png",
-              multiple: true,
+              multiple: false,
             }
           : "")}
         disabled={disabled}
