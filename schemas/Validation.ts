@@ -47,7 +47,7 @@ export const schema = (t: any) =>
             return false; // No file selected, return false to trigger the error
           }
 
-          return value[0].size <= 2000000; // File size limit is 2 MB (2000000 bytes)
+          return value[0].size <= 3000000; // File size limit is 3 MB (3000000 bytes)
         },
       ),
   });

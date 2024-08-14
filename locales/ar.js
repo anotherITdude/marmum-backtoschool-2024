@@ -62,7 +62,7 @@ const translations = {
   'emirate_id_number_error': 'الحد الأدنى 15 رقمًا ',
   'upload_purchase_receipt': 'تحميل فاتورة الشراء',
   'upload_purchase_receipt_error1': 'فاتورة الشراء مطلوبة',
-  'upload_purchase_receipt_error2': 'الرجاء تحميل فاتورة الشراء. الحد الأقصت',
+  'upload_purchase_receipt_error2': 'الحد الأقصى لحجم التحميل ',
   'max_upload_size': 'الحد الأقصى لحجم التحميل ',
   'form_submit_message': 'جارٍ تقديم النموذج...',
   'uploading_data': 'جارٍ تحميل البيانات. يرجى الانتظار...',
