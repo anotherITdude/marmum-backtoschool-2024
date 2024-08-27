@@ -72,7 +72,7 @@ const translations = {
   //Terms and conditions
   'terms_heading': '*TERMS & CONDITIONS',
     "terms1": "The competition is open only to UAE residents above 18 years of age with a valid Emirates ID.",
-    "terms2": "To enter the promotion, participants have to purchase Milk 2 ltr, Gallon, Yoghurt 1 kg, Apple juice 1.5 ltr, Orange juice 1,5 ltr, Fruit Mix 1.5 ltr, Berry 1.5 ltr that have promotional QR code on them.",
+    "terms2": "To enter the promotion, participants have to purchase Milk 2 ltr, Gallon, Yoghurt 1 kg, Apple juice 1.5 ltr, Orange juice 1.5 ltr, Fruit Mix 1.5 ltr, Berry 1.5 ltr that have promotional QR code on them.",
     "terms3": "On the landing page, participants have to enter their name, email, mobile number, Emirate, Emirates ID number and upload a clear photo of the purchase receipt which shows the date and the Marmum product.",
     "terms4": "Participants have to register only through the online link which is validated through scanning of the QR code on the product.",
     "terms5": "The last date for submission is 15th September 2024. Winners will be announced on 28th August, 4th September, 11th September, and 18th September 2024 on the Marmum Social Media pages and individually contacted for prize collection.",
